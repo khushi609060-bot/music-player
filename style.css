@@ -1,0 +1,54 @@
+body{
+    background:#222;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family:Arial;
+}
+
+.player{
+    width:320px;
+    background:#333;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.cover{
+    width:180px;
+    height:180px;
+    border-radius:10px;
+}
+
+.buttons button{
+    padding:10px 20px;
+    margin:10px;
+    font-size:20px;
+    cursor:pointer;
+}
+
+input[type=range]{
+    width:100%;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    padding:8px;
+    cursor:pointer;
+}
+
+li:hover{
+    background:#555;
+}
+
+.time{
+    display:flex;
+    justify-content:space-between;
+    margin-top:5px;
+}
